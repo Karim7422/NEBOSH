@@ -126,7 +126,7 @@ body {
 }
 
 .navbar-collapse ul li:hover .dropdown-menu {
-    display: block;
+    display: block !important;
     border-radius: 0;
     background-color: rgba(143, 209, 224, 0.9);
 }
