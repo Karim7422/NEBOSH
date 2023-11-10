@@ -27,7 +27,9 @@ body {
 .bg-cyan {
     background-color: var(--main-cyan);
 }
-
+.bg-blue{
+    background-color: var(--main-blue);
+}
 .text-cyan {
     color: var(--main-cyan);
 }

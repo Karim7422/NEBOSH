@@ -1,0 +1,90 @@
+body {
+    background-color: white;
+}
+
+.hover-btn:hover {
+    background-color: #53bbdf;
+    text-decoration: none !important;
+}
+
+.general-certificate-img {
+    background-image: url('../images/rachel-crawford-1900-x-320.jpg');
+    min-width: 100%;
+    height: 220px;
+    background-size: auto;
+    background-repeat: round;
+}
+
+.general-certificate-title {
+    background-color: #254f79;
+    color: white;
+    position: absolute;
+    top: 50%;
+    translate: 0% -50%;
+    min-width: 450px;
+    padding: 1rem;
+    height: fit-content;
+    text-align: end;
+}
+
+.general-certificate-content>div:first-child p,
+.general-certificate-content ul li,
+.main-section p,
+.main-section ul li,
+.health-and-safety p {
+    font-size: 0.9rem;
+    list-style-type: disc;
+}
+
+.main-section h5 {
+    text-align: center;
+    color: var(--main-cyan);
+    font-weight: 600;
+    font-size: 1.75rem;
+}
+
+.main-section span {
+    color: var(--main-cyan);
+    font-weight: 400;
+}
+
+.carousel-item {
+    background-color: #d4dfe2;
+}
+
+.accordion {
+    border: 1px solid var(--main-cyan);
+}
+
+.accordion-button,
+.accordion-button:focus,
+.accordion-button:not(.collapsed) {
+    background-color: #cfe5ee;
+    box-shadow: none;
+}
+
+
+
+@media (min-width:320px) and (max-width:768px) {
+    .general-certificate-img {
+        height: 145px;
+    }
+
+    .general-certificate-title {
+        background-color: var(--main-blue);
+        min-width: 100%;
+        translate: 0% 115%;
+        padding: 0.25rem;
+        text-align: start;
+    }
+
+    .general-certificate-title h4 {
+        padding-inline: 0.75rem;
+        font-size: 0.8rem;
+        margin: 0;
+    }
+
+    .carousel-caption p {
+        font-size: 0.8rem !important;
+    }
+}
